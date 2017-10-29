@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col l4 m6 s12" *ngFor="let book of books">
+        <div class="card blue-grey lighten-5">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" width="200" height="450" src="{{book.cover}}">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">
+                    {{book.title}}
+                    <i class="material-icons right">more_vert</i>
+                </span>
+            </div>
+            <div class="card-action">
+                <a class="blue-text" href="#">Borrow Book</a>
+            </div>
+            <div class="card-reveal blue-grey lighten-5">
+                <span class="card-title grey-text text-darken-4">
+                    {{book.title}}
+                    <i class="material-icons right">close</i>
+                </span>
+                <p><strong>Author: </strong>{{book.author}}</p>
+                <p><strong>Description: </strong></p>
+                <p>{{book.description}}</p>
+                <p><strong>ISBN Number: </strong>{{book.isbn_number}}</p>
+                <p><strong>Year: </strong>{{book.year}}</p>
+            </div>
+        </div>
+    </div>
+</div>

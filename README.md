@@ -1,6 +1,12 @@
-# LibraryManagementSystemUI
+# Library Management System UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+This is an Angualr 4 based UI for [LibraryManagementSystemRESTAPIs](https://github.com/noorsheikh/LibraryManagementSystemRESTAPIs)
+
+## Prerequisities:
+
+- LibraryManagementSystemRESTAPIs need to be available and running on your local system.
+- Node v8 or above
+- NPM  v5 or above
 
 ## Development server
 
